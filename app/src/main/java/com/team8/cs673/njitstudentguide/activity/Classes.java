@@ -124,7 +124,7 @@ public class Classes extends ActionBarActivity {
         final String semester=s;
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Classes.this);
         alertDialog.setTitle("Delete");
-        alertDialog.setMessage("Are sure you want to delete?");
+        alertDialog.setMessage("Are sure you want to delete the course?");
         alertDialog.setIcon(R.drawable.delete);
         alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {

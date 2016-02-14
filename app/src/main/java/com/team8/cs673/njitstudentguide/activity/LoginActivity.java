@@ -183,7 +183,7 @@ public class LoginActivity extends Activity {
 
 
                 Toast.makeText(getApplicationContext(),
-                        "Err,please check your Internet connection", Toast.LENGTH_LONG).show();
+                        "Error,please check your internet connection", Toast.LENGTH_LONG).show();
                 hideDialog();
             }
         }) {
